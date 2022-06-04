@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon"  href="Cbtis.jpg" >
+    <title>Pagina Familiar</title>
+</head>
+
+<body id="">
+    <header>
+        <nav> 
+            <ul>
+                <li><a href="Index.html"><span><i class="material-icons"> home </i><br><p>Inicio</p></span></a></li>
+                </li>
+                <li><a href="IndexCon.html"><i class="material-icons"> email </i><br><p>Contacto</p><span></a></li>
+            </ul>
+            <div id="imagen">
+                <img src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg" style="position: relative; top: 0%; left: 0%;"  onclick="redirect2()" id="Gnz" alt="Gonzalez">
+                <p style="position: relative; bottom: 140%; left: 525%;" id="pfa">Alonso</p>
+            </div>
+        </nav>
+    </header>
+
+    <main id="mainAl">
+        <div class="contenedorM">
+            <p  style="background-color:rgb(141, 22, 22);" id="parM"> Alonso Gonzalez Lona </p>
+            <img class="ImgAl" src="Aloo2.jpg" alt="Alonso Gonzalez Lona">
+            <p id="ParrafoM">
+                Alonso, que no se puede decir de el que no se sepa ya, es todo en personaje  siempre viajando, de fiesta, dormido, oh simplemente haciendo amigos pero eso si siempre comiendo en todo momento, la verdad su vida es todo un carnaval jamás sabes que ara, es increíble convivir con el y siempre te hace reír con cualquier cosa y tiene excelentes historias para contar y es muy interesante, aunque es demasiado estresante discutir con el  por que de alguna forma siempre se toma personal cualquier cosa y es difícil hablar en ese punto, pero en general es una buena persona y demasiado única.
+            </p>
+            <p id="textM">Descripcion</p>
+            <p id="paM">
+                Datos <br>
+                Tio <br>
+                Edad: 25 años;<br>
+                Alias: Alonso;<br>
+                Aficiones: <br>
+                Dormir <br>
+                Comer<br>
+                Viajar
+            </p>
+        </div>
+
+</main>
+
+    <footer>
+        <div id="lineafoot">  Cbtis no.65  &nbsp   &nbsp  &nbsp Sito Familiar</div>
+        <img id="imgfoo1" src="https://i.pinimg.com/originals/f0/ce/0b/f0ce0b253ec816312d54e4ebe94abb5e.jpg" onclick="redirect()">
+        <img id="imgfoo2" src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg"  onclick="redirect2()" >
+       
+    </footer>
+    <script>
+        function redirect2()
+            {  
+        document.addEventListener("click", function (){
+        document.getElementById("reo").innerHTML = "Hello World";
+        });
+            window.location.href="https://www.infobae.com/america/mexico/2021/11/17/cual-es-el-origen-de-tu-apellido-gonzalez/";
+            }
+    </script>
+</body>
+</html>

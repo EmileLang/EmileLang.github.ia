@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    box-sizing: border-box ;
+    height: 100%;
+    width: 100%;
+}
+/*   */
+#bodyP {
+    background-image: url(https://www.captainpetitpois.com/wp-content/uploads/2020/07/IMG_20200615_180654-1320x1760.jpg);
+    height: 100%;
+    width: 100%;
+}
+/* definimos la posicion del contenedor de las imagenes y sus dimensiones en el nav*/
+#imagen {
+
+    width: 80px;
+    height: 80px;
+    margin-top: -92px;
+    margin-left: 5px;
+}
+/*   */
+#Sls {
+    height: 85px;
+    width: 70px;
+    border-radius: 10px;
+    border: 2px black solid;
+    margin-left: 30%; 
+}
+#Gnz {
+
+    height: 85px;
+    width: 70px;
+    border-radius: 10px;
+    border: 2px black solid;
+    position: relative;
+    left: 170%;
+    bottom: 112%;
+}
+/*   */
+#pfa {
+    color: rgb(255, 255, 255);
+    font:  bold 100px Georgia;
+    font-size: 100px;
+    text-shadow: -7px 7px #c40700 ;
+    width: 99.5% ;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 250%;
+    left: 470%;   
+}
+#imgfoo1 {
+    width: 10%;
+    height: 80%;
+    position: relative;
+    border-radius: 10px;
+    left: 3%;
+    bottom: 5%;
+}
+#imgfoo2 {
+    width: 10%;
+    height: 80%;
+    position: relative;
+    border-radius: 10px;
+    left: 5%;
+    bottom: 5%;
+}
+#Gnz {
+
+    height: 85px;
+    width: 70px;
+    border-radius: 10px;
+    border: 2px black solid;
+    position: relative;
+    left: 170%;
+    bottom: 112%;
+}
+/*  General */
+footer {
+    height: 25%;
+    border-radius: 10px 10px 0 0;
+    border: 4px solid rgb(141, 118, 15);
+    background-image: url(https://pic.52112.com/2019/05/10/JPG-190510_308/SjHaJXqcnQ_small.jpg);
+}
+#lineafoot{
+    height: 10%;
+    width: 100%;
+    background-color: rgba(34,34,34,.85);;
+    position: relative;
+    top: 90%;
+    color: antiquewhite;
+    text-align: center;
+}
+header {
+    background-image: url(https://thumbs.dreamstime.com/b/textura-rocosa-del-fondo-de-la-pared-de-piedra-rocas-naturales-grandes-94710765.jpg);
+    height: 20.5%;
+	width: 100%;
+    padding-top:.3% ;
+}
+/* con esto defines el tamaño de la barra de navegacion y la posicion
+de los elementos */
+nav {
+   background-color: rgba(34,34,34,.65);
+    height: 90%;
+	width:99%;
+    border-radius: 20px;
+    border:  4px #000000 solid;
+    text-align: right;
+	box-shadow: 10px 9px 15px ;
+
+}
+/* para poner el menu horizonal */
+li {
+	display:inline-block;
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    
+}
+/* Con esto cuando seleccionas un objeto cambia de color*/
+  li:hover {
+	background:#E6344A;
+    border-radius: 30px;
+    height: 104px;
+    width: auto;
+    border: 4px solid #911524;
+    margin-top: 2px;
+}
+/* con esto le pones una barra de navegacion a la lista desplegable*/
+.children {
+    border-radius: 30px;
+    height: 200px;
+    overflow-x: hidden ;
+    font-display: block;
+    padding-right:80px ;
+    list-style: none;
+    padding: 3px;  
+}
+/* con esto le das formato a los elementos 
+de la barra para que no sean simples links*/   /* */   /* */
+a {
+	color:rgb(255, 255, 255);
+	display:block;
+	text-decoration:none;
+	padding: 30px;
+}
+/* con esto muestras la lista en el menu */
+  li:hover .children {
+	display:block;
+}
+/* esto ajusta el tamaño y posicion del menu despegable y la oculta */
+.children {
+    margin-top:.5% ;
+	display: none;
+    background-image:url(https://th.bing.com/th/id/OIP.4EaLDHUN0sKOv43rUa018wHaHa?pid=ImgDet&rs=1) ;
+    background-size: 100%;
+	position: absolute;
+	width: 200px;
+    text-align: center;
+    border: #942020 5px solid;
+}
+/* Con esto le damos tamaño a los elementos de la lista para que no se amontonen */
+.LisD {
+    height: 20%;
+    width: 125px;
+}
+/*   */
+.imgLogo {
+
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius:  50px;
+	left: 50px;
+	top:25%;
+}
+/* Principal */
+#headerprin {
+    background-image:url(https://th.bing.com/th/id/OIP.4EaLDHUN0sKOv43rUa018wHaHa?pid=ImgDet&rs=1) ;
+}
+/*  dimensiones del main principal */
+#mainpr {
+    background-color: #c40700;
+    width: 100%;
+    height: 350%;
+}
+#divmap {
+    width: 100%;
+    height: 40%;
+    background-color: aqua;
+    border: 5px solid black;
+}
+#divx{
+    background-image: url(https://wallpapercave.com/wp/wp4758304.jpg);
+    width: 100%;
+    height: 50%;
+    background-color: rgb(10, 85, 85);
+    background-size: 100%;
+    border: #000000 3px solid;
+    border-radius: 10px;
+}
+#divtxt {
+    height: 10%;
+    width: 80%;
+    border: #000000 3px solid ;
+    background-image: url(https://wordpress.danieltubau.com/wp-admin/images/2012/10/fondo-papel-antiguo.jpg);
+    position: relative;
+    left: 11%;
+    border-radius: 20px;
+    padding: 6px;
+    padding-right: 2px;
+    font-size: 110%;
+}
+/*  Aqui definimos las posiciones de las imagenes en x */
+#imagen1{
+    left: 15%;
+    top: 2%;
+    height: 19%;
+    width: 14%;
+    border-radius: 20px;
+    border: 4px solid rgb(194, 32, 194);
+    position: relative;
+}
+#imagen2{
+    height: 19%;
+    width: 18%;
+    top: 21%;
+    left: 15%;
+    position: relative;
+    border: 4px solid rgb(194, 32, 194);
+    border-radius: 20px;
+}
+#imagen3{
+    height: 19%;
+    width: 15%;
+    top: 41%;
+    left: 13%;
+    position: relative;
+    border: 4px solid rgb(194, 32, 194);
+    border-radius: 20px;
+}
+#imagen4{
+    height: 19%;
+    width: 14%;
+    top: 61%;
+    left: 13%;
+    position: relative;
+    border: 4px solid rgb(194, 32, 194);
+    border-radius: 20px;
+}
+#imagen5{
+    height: 19%;
+    width: 14%;
+    top: 2%;
+    left: 15%;
+    position: relative;
+    border: 4px solid rgb(194, 32, 194);
+    border-radius: 20px;
+}
+#imagen6{
+    height: 19%;
+    width: 18%;
+    top:21%;
+    right: 19%;
+    position: relative;
+    border: 4px solid rgb(194, 32, 194);
+    border-radius: 20px;
+}
+#imagen7{
+    height: 19%;
+    width: 13%;
+    top: 61%;
+    left: 14%;
+    position: relative;
+    border: 4px solid rgb(194, 32, 194);
+    border-radius: 20px;
+}
+#imagen8{
+    height: 19%;
+    width: 16%;
+    top: 42%;
+    left: 15%;
+    position: relative;
+    border: 4px solid rgb(194, 32, 194);
+    border-radius: 20px;
+}
+/*   */
+#footpr {
+    height: 30%;
+    position: relative;
+    background-image: url(https://images.vexels.com/media/users/3/145269/raw/0db052b905d4b8ff563b5990d8b0e4e2-dia-de-los-muertos-patr-n-transparente.jpg);
+    background-size: 100%;
+}
+#h3pr{
+    height:15%; 
+    width: 20%; 
+    border: 3px solid;
+    position:relative;
+    left: 40%;
+    background-color: rgba(34,34,34,.65);
+}
+
+/* pagina papa */
+#bodyP {
+    background-image: none;
+    background-repeat: no-repeat;
+
+}
+.contenedor {
+    height: 80%;
+    width: 100%;   
+}
+.ImgF{
+  transform: rotate(270deg); 
+  height: 430px; 
+  width: 500px;
+  position: relative;
+  top: 16.5%;
+  border-radius: 20px;
+  border: 3px ridge gold;
+}
+/*  es el parrafo con los datos de la persona  */
+#Parrafo1{
+    background-image: url(https://i.pinimg.com/originals/55/39/68/55396875053d4b9cbe8085fa789aad3b.jpg);
+    background-size: 100%;
+    border: 3px solid black;
+    width: 55%;
+    height: 80%;
+    padding: 20PX;
+    padding-top: 60px;
+    font-size: 20px;
+    position: relative;
+    left: 43%;
+    border-radius: 20px;
+    bottom: 40%;
+}
+/*  este es el de los atributos   */
+#paf {
+    background-image: url(https://i.pinimg.com/originals/55/39/68/55396875053d4b9cbe8085fa789aad3b.jpg);
+    background-size: 100%;
+    width: 38%;
+    height: 30%;
+    position: relative;
+    bottom: 60%;
+    left: 1.5%;
+    text-align: center;
+    padding: 20PX;
+    font-size: 19px;
+    border-radius: 30px;
+    Font-weight:  bold;
+    border: 3px solid black;
+}
+/*  con esto definimos la caja con el nombre de la persona  */
+#parn {
+    width: 45%;
+    height: 7%;
+    position: relative;
+    top: 3%;
+    background-color: #615f5d;
+    left: 25%;
+    border-radius: 30%;
+    border: 3px solid ;
+    margin-bottom: -2%;
+    color: rgb(255, 255, 255);
+    font:  bold 100px Georgia;
+    font-size:25px;
+    text-shadow: -7px 7px #343532 ;
+    padding-left: 10%;
+}
+#mainE{
+    background-image: url(https://th.bing.com/th/id/R.07d71d912d255602399148d5d5ed491e?rik=n72d5DL3zREJRA&riu=http%3a%2f%2fst.gdefon.com%2fwallpapers_original%2f418314_hombre_vaquero_Arma_fondo_3300x2550_www.Gde-Fon.com.jpg&ehk=gs6FVPWq9frFRtLJDUdmaoPHnXcrFcaUc5wicV%2fPtpo%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+#textT{
+    background-color: #615f5d;
+    border-radius: 30px;
+    width: 20%;
+    height: 5%;
+    border: 3px solid black;
+    position: relative;
+    bottom: 119%;
+    text-align: center;
+    font-size: 27px;
+    left: 60%;
+}
+/*Pagina mama */
+.ImgM{
+    height: 430px; 
+    width: 500px;
+    position: relative;
+    top: 16.5%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+    left: 57%;
+  }
+  #mainM{
+    background-image: url(https://th.bing.com/th/id/R.6801e0090b70223ee4454b517a6f4fe3?rik=vDVS%2flbWGeZhkA&riu=http%3a%2f%2fst2.depositphotos.com%2f1012125%2f5597%2fv%2f950%2fdepositphotos_55974213-stock-illustration-background-with-dragonflies.jpg&ehk=OwcMVfQqnwZAcqiT9BaFEYytZXl5LO09jo6m%2bv6hoqw%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.contenedorM {
+    height: 80%;
+    width: 100%;   
+}
+/* */
+#ParrafoM{
+    background-image: url(https://th.bing.com/th/id/OIP.bU0dHEcUpHPwGbN-G7O3dwHaGK?pid=ImgDet&rs=1);
+    border: 3px solid black;
+    width: 55%;
+    height: 80%;
+    position: relative;
+    left: 1%;
+    border-radius: 20px;
+    bottom: 40%;
+}
+/*  este es el de los atributos   */
+#paM {
+    background-image: url(https://th.bing.com/th/id/OIP.bU0dHEcUpHPwGbN-G7O3dwHaGK?pid=ImgDet&rs=1);
+    width: 38%;
+    height: 30%;
+    position: relative;
+    bottom: 65%;
+    left: 59%;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+/*  con esto definimos la caja con el nombre de la persona  */
+#parM {
+    width: 45%;
+    height: 7%;
+    position: relative;
+    top: 3%;
+    background-color: #2e577c;
+    left: 25%;
+    border-radius: 30%;
+    border: 3px solid ;
+    margin-bottom: -2%;
+    color: rgb(255, 255, 255);
+    font:  bold 100px Georgia;
+    font-size:25px;
+    text-shadow: -7px 7px #111a72 ;
+    padding-left: 10%;
+}
+#textM{
+    background-color: #615f5d;
+    border-radius: 30px;
+    width: 20%;
+    height: 5%;
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    bottom: 119%;
+    left: 17%;
+}
+
+.ImgM{
+    height: 430px; 
+    width: 500px;
+    position: relative;
+    top: 16.5%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+    left: 57%;
+  }
+  #mainM{
+    background-image: url(https://th.bing.com/th/id/R.6801e0090b70223ee4454b517a6f4fe3?rik=vDVS%2flbWGeZhkA&riu=http%3a%2f%2fst2.depositphotos.com%2f1012125%2f5597%2fv%2f950%2fdepositphotos_55974213-stock-illustration-background-with-dragonflies.jpg&ehk=OwcMVfQqnwZAcqiT9BaFEYytZXl5LO09jo6m%2bv6hoqw%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.contenedorM {
+    height: 80%;
+    width: 100%;   
+}
+/* */
+#ParrafoM{
+    background-image: url(https://th.bing.com/th/id/OIP.bU0dHEcUpHPwGbN-G7O3dwHaGK?pid=ImgDet&rs=1);
+    border: 3px solid black;
+    width: 55%;
+    height: 80%;
+    position: relative;
+    left: 1%;
+    padding: 20PX;
+    padding-top: 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    bottom: 40%;
+}
+/*  este es el de los atributos   */
+#paM {
+    background-image: url(https://th.bing.com/th/id/OIP.bU0dHEcUpHPwGbN-G7O3dwHaGK?pid=ImgDet&rs=1);
+    width: 38%;
+    height: 30%;
+    position: relative;
+    bottom: 65%;
+    left: 59%;
+    padding: 20PX;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+/*  con esto definimos la caja con el nombre de la persona  */
+#parM {
+    width: 45%;
+    height: 7%;
+    position: relative;
+    top: 3%;
+    background-color: #2e577c;
+    left: 25%;
+    border-radius: 30%;
+    border: 3px solid ;
+    margin-bottom: -2%;
+    color: rgb(255, 255, 255);
+    font:  bold 100px Georgia;
+    font-size:25px;
+    text-shadow: -7px 7px #111a72 ;
+    padding-left: 10%;
+}
+#textM{
+    background-color: #615f5d;
+    border-radius: 30px;
+    width: 20%;
+    height: 5%;
+    border: 3px solid black;
+    position: relative;
+    bottom: 119%;
+    left: 17%;
+}
+/* pagina rosa*/
+#mainRo{
+    background-image: url(https://th.bing.com/th/id/R.e06686d7cef7217bbbf262221d8432c8?rik=GeYoN77AOd%2buQA&pid=ImgRaw&r=0);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.ImgRo{
+    height: 350px; 
+    width: 300px;
+    position: relative;
+    top: 10.5%;
+    left: 6%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+  }
+/* pagina Xavier */
+#mainX{
+    background-image: url(https://th.bing.com/th/id/R.a072df4ef99b8eb7376d296da8091edd?rik=FnEMJ2SAiBHGRw&pid=ImgRaw&r=0);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.ImgX{
+    height: 480px; 
+    width: 400px;
+    position: relative;
+    top: 14.5%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+    left: 59%;
+  }
+/* Pagina marcelo*/
+#mainLu{
+    background-image: url(https://i.pinimg.com/originals/35/9d/d1/359dd11c5553bd75844631760cd70e14.jpg);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.ImgLu{
+    height: 500px; 
+    width: 430px;
+    position: relative;
+    top: 16.5%;
+    left: 1%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+  }
+/* Pagina alonso */
+#mainAl{
+    background-image: url(https://i.pinimg.com/originals/6c/d1/00/6cd1008e408619135541e7182abd5f6e.jpg);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.ImgAl{
+    height: 430px; 
+    width: 500px;
+    position: relative;
+    top: 16.5%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+    left: 57%;
+  }
+/* pagina asu*/
+#mainTas{
+    background-image: url(https://th.bing.com/th/id/R.f0248bb47cfa38f5b82b4585fa1c3f96?rik=5x6pT2B9JZQmKg&pid=ImgRaw&r=0);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.ImgTas{
+    height: 350px; 
+    width: 500px;
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+  }
+/* pagina Ale*/
+#mainAle{
+    background-image: url(https://image.freepik.com/vector-gratis/laboratorio-ciencias-tubos_23-2148487478.jpg);
+    background-size: 100%;
+    height: 140%;
+    background-repeat: no-repeat;
+}
+.ImgAle{
+    height: 430px; 
+    width: 500px;
+    position: relative;
+    top: 16.5%;
+    border-radius: 20px;
+    border: 3px ridge gold;
+    left: 57%;
+  }
+  input {
+
+    border-radius: 30px;
+    border: 4px groove gray;
+    background-color: silver;
+    padding: 5px;
+}
+
+textarea {
+    border-radius: 30px;
+    background-color: silver;
+    border: 2px inset gray;
+}
+#divcon {
+    border: 2px ridge black;
+    background: rgba(34,34,34,.65);
+    border-radius: 50px;
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    margin-top: 40px;
+}
+#bodycon {
+    background-image: url(https://www.freejpg.com.ar/image-900/a1/a1be/F100008378-oficina.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    height: 35%;
+}

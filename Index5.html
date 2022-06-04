@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon"  href="Cbtis.jpg" >
+    <title>Pagina Familiar</title>
+</head>
+
+<body id="">
+    <header>
+        <nav> 
+            <ul>
+                <li><a href="Index.html"><span><i class="material-icons"> home </i><br><p>Inicio</p></span></a></li>
+                <li><a href="indexCon.html"><i class="material-icons"> email </i><br><p>Contacto</p><span></a></li>
+            </ul>
+            <div id="imagen">
+                <img src="https://i.pinimg.com/originals/f0/ce/0b/f0ce0b253ec816312d54e4ebe94abb5e.jpg" onclick="redirect()" id="Sls" alt="Salas">
+                <img src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg"  onclick="redirect2()" id="Gnz" alt="Gonzalez">
+                <p id="pfa">Marcelo</p>
+            </div>
+        </nav>
+    </header>
+
+    <main id="mainLu">
+        <div class="contenedor">
+            <p id="parn" style=" position: relative;">Luis Marcelo Salas Gonzalez </p>
+            <img class="ImgLu" src="Luis.jpg" alt=" Luis Marcelo Salas Gonzalez">
+            <p style="position: relative; bottom: 45%; left: 42%;" id="Parrafo1">
+                Marcelo salas es un niño bastante imperativo, adicto a los teléfonos y  a YouTube, siempre esta tratando de no hacer nada y come como loco, es muy testarudo y desobediente, jamás hace  deberes y tiene una vos chillona   y abecés desespera, pero regularmente suele ser un buen niño  y solo portarse bien, pero eso en casos muy raros  
+            </p>
+            <p style="position: relative; bottom: 124%;" id="textT">Descripcion</p>
+            <p style="position: relative; bottom: 67%;" id="paf">
+                Datos <br>
+                Hermano <br>
+                Edad: 5 años;<br>
+                Alias: Chelo ;<br>
+                Aficiones: <br>
+                Dormir<br>
+                Dormir<br>
+</p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="lineafoot">  Cbtis no.65  &nbsp   &nbsp  &nbsp Sito Familiar</div>
+        <img id="imgfoo1" src="https://i.pinimg.com/originals/f0/ce/0b/f0ce0b253ec816312d54e4ebe94abb5e.jpg" onclick="redirect()">
+        <img id="imgfoo2" src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg"  onclick="redirect2()" >
+       
+    </footer>
+    <script>
+        function redirect() {
+      document.addEventListener("click", function (){
+      document.getElementById("reo").innerHTML = "Hello World";
+      });
+          window.location.href="https://origendelosapellidos.es/apellido-salas/#:~:text=APELLIDO%20SALAS%20Los%20especialistas%20en%20el%20origen%20de,mismo%20que%20significa%20sala%20de%20estar%20o%20habitaci%C3%B3n.";
+          }
+
+          function redirect2()
+          {  
+      document.addEventListener("click", function (){
+      document.getElementById("reo").innerHTML = "Hello World";
+      });
+        window.location.href="https://www.infobae.com/america/mexico/2021/11/17/cual-es-el-origen-de-tu-apellido-gonzalez/";
+     }
+
+  </script>
+</body>
+</html>

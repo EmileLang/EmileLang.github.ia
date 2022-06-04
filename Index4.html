@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon"  href="Cbtis.jpg" >
+    <title>Pagina Familiar</title>
+</head>
+
+<body id="">
+    <header>
+        <nav> 
+            <ul>
+                <li><a href="Index.html"><span><i class="material-icons"> home </i><br><p>Inicio</p></span></a></li>
+                <li><a href="IndexCon.html"><i class="material-icons"> email </i><br><p>Contacto</p><span></a></li>
+            </ul>
+            <div id="imagen">
+                <img src="https://i.pinimg.com/originals/f0/ce/0b/f0ce0b253ec816312d54e4ebe94abb5e.jpg" onclick="redirect()" id="Sls" alt="Salas">
+                <img src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg"  onclick="redirect2()" id="Gnz" alt="Gonzalez">
+                <p id="pfa">Xavier</p>
+            </div>
+        </nav>
+    </header>
+
+    <main id="mainX">
+        <div class="contenedorM">
+            <p id="parM"> Xavier Salas Gonzalez</p>
+            <img class="ImgX" src="Xav.jpg" alt="Xavier Salas Gonzalez">
+            <p id="ParrafoM">
+                Xavier es un niño bastante distraído pero demasiado entusiasta muy cariñoso y juguetón, le gusta el futbol ir al parque y tiene muchos amigos, participa en casa y siempre pelea con sus hermanos, le gusta mucho bailar, cantar y las artes marciales y toca la guitarra, su comida favorita es el espagueti y la piza y el postre que mas le gusta es el arroz con leche no le gusta bañarse ni recoger su cuarto es un poco desordenado con sus útiles escolares y no le gusta el uniforme de su escuela 
+            </p>
+            <p id="textM">Descripcion</p>
+            <p id="paM">
+                Datos <br>
+                Hermano <br>
+                Edad: 9 años;<br>
+                Alias: Poy;<br>
+                Aficiones: <br>
+                Karate <br>
+                Skate<br>
+                Video juegos
+            </p>
+        </div>
+
+</main>
+
+    <footer>
+        <div id="lineafoot">  Cbtis no.65  &nbsp   &nbsp  &nbsp Sito Familiar</div>
+        <img id="imgfoo1" src="https://i.pinimg.com/originals/f0/ce/0b/f0ce0b253ec816312d54e4ebe94abb5e.jpg" onclick="redirect()">
+        <img id="imgfoo2" src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg"  onclick="redirect2()" >
+       
+    </footer>
+    <script>
+          function redirect() {
+        document.addEventListener("click", function (){
+        document.getElementById("reo").innerHTML = "Hello World";
+        });
+            window.location.href="https://origendelosapellidos.es/apellido-salas/#:~:text=APELLIDO%20SALAS%20Los%20especialistas%20en%20el%20origen%20de,mismo%20que%20significa%20sala%20de%20estar%20o%20habitaci%C3%B3n.";
+            }
+
+            function redirect2()
+            {  
+        document.addEventListener("click", function (){
+        document.getElementById("reo").innerHTML = "Hello World";
+        });
+        window.location.href="https://www.infobae.com/america/mexico/2021/11/17/cual-es-el-origen-de-tu-apellido-gonzalez/";
+            }
+
+    </script>
+</body>
+</html>

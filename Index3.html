@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon"  href="Cbtis.jpg" >
+    <title>Pagina Familiar</title>
+</head>
+
+<body id="">
+    <header>
+        <nav> 
+            <ul>
+                <li><a href="Index.html"><span><i class="material-icons"> home </i><br><p>Inicio</p></span></a></li>
+                <li><a href="IndexCon.html"><i class="material-icons"> email </i><br><p>Contacto</p><span></a></li>
+            </ul>
+            <div id="imagen">
+                <img src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg" style="position: relative; top: 0%; left: 0%;"  onclick="redirect2()" id="Gnz" alt="Gonzalez">
+                <p style="position: relative; bottom: 140%; left: 525%;" id="pfa">Rosa</p>
+            </div>
+        </nav>
+    </header>
+
+    <main id="mainRo">
+        <div class="contenedor">
+            <p id="parn"> Rosalva Gonzalez Lona </p>
+            <img class="ImgRo" src="Rosa.jpg" alt="Rosalva Gonzalez Lona  ">
+            <p id="Parrafo1" style="position: relative; bottom: 37%;">
+                Creció en el Coyote Gto y al igual que todos sus hermanos y estudio en las escuelas de los ranchos pero se propuso salir de el coyote y logro entrar al ITESI, de ahí trabajo y estudio durante 6 años y se graduó como ingeniero industrial, conoció a su actual esposó en una fiesta  y ahora tiene una hija a pesar que es algo perezosa  y se queda dormida con ella cada que tiene la ocasión 
+            </p>
+            <p style="position: relative; bottom: 116%;" id="textT">Descripcion</p>
+            <p  style="position: relative; bottom: 71%;"id="paf">
+                Datos <br>
+                Tia <br>
+                Edad:28 años;<br>
+                Alias: Rosa;<br>
+                Aficiones: <br>
+                Dormir <br>
+                Trabajar <br>
+                Ver la tv
+</p>
+        </div>
+
+    <footer>
+        <div id="lineafoot">  Cbtis no.65  &nbsp   &nbsp  &nbsp Sito Familiar</div>
+        <img id="imgfoo1" src="https://i.pinimg.com/originals/f0/ce/0b/f0ce0b253ec816312d54e4ebe94abb5e.jpg" onclick="redirect()">
+        <img id="imgfoo2" src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg"  onclick="redirect2()" >
+       
+    </footer>
+    <script>
+        function redirect2()
+            {  
+        document.addEventListener("click", function (){
+        document.getElementById("reo").innerHTML = "Hello World";
+        });
+            window.location.href="https://www.infobae.com/america/mexico/2021/11/17/cual-es-el-origen-de-tu-apellido-gonzalez/";
+            }
+    </script>
+</body>
+</html>

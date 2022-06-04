@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon"  href="Cbtis.jpg" >
+    <title>Pagina Familiar</title>
+</head>
+
+<body id="">
+    <header>
+        <nav> 
+            <ul>
+                <li><a href="Index.html"><span><i class="material-icons"> home </i><br><p>Inicio</p></span></a></li>
+                <li><a href="IndexCon.html"><i class="material-icons"> email </i><br><p>Contacto</p><span></a></li>
+            </ul>
+            <div id="imagen">
+                <img src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg" style="position: relative; top: 0%; left: 0%;"  onclick="redirect2()" id="Gnz" alt="Gonzalez">
+                <p style="position: relative; bottom: 140%; left: 550%;" id="pfa">Asu</p>
+            </div>
+        </nav>
+    </header>
+
+    <main id="mainTas">
+        <div class="contenedor">
+            <p id="parn"> Asusena Gonzalez Lona </p>
+            <img class="ImgTas" src="asu2.jpg" alt="   Enrique Salas Rodrigez">
+            <p id="Parrafo1">
+                Es originaria de El Coyote Gto, creció en el campo es de las hermanas mayores de una familia de nueve  hermanos y dese joven trabajo 
+                en el campo para poder sacar a adelante a su familia, aunque siempre fue retraída con los demás es una gran persona, logro llegar a 
+                la universidad peto no la termino, eso no fue un obstáculo pues estudio estilismo en una academia privada y ejerce como panadera en 
+                su comunidad natal repartiendo pan por las comunidades, actualmente tiene un hijo y esta casada creando su historia.
+            </p>
+            <p id="textT">Descripcion</p>
+            <p id="paf">
+                Datos <br>
+                Tia/Mama adoptiva <br>
+                Edad:36 años;<br>
+                Alias: Susa;<br>
+                Aficiones: <br>
+                Panaderia<br>
+                Agrucultura 
+
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="lineafoot">  Cbtis no.65  &nbsp   &nbsp  &nbsp Sito Familiar</div>
+        <img id="imgfoo1" src="https://i.pinimg.com/originals/f0/ce/0b/f0ce0b253ec816312d54e4ebe94abb5e.jpg" onclick="redirect()">
+        <img id="imgfoo2" src="https://origendelosapellidos.es/wp-content/uploads/2012/06/gonz%C3%A1lez.jpg"  onclick="redirect2()" >
+       
+    </footer>
+    <script>
+        function redirect2()
+            {  
+        document.addEventListener("click", function (){
+        document.getElementById("reo").innerHTML = "Hello World";
+        });
+            window.location.href="https://www.infobae.com/america/mexico/2021/11/17/cual-es-el-origen-de-tu-apellido-gonzalez/";
+            }
+    </script>
+</body>
+</html>
