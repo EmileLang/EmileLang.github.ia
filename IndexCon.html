@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon"  href="Cbtis.jpg" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<style>
+    input {
+
+border-radius: 30px;
+border: 4px groove gray;
+background-color: silver;
+padding: 5px;
+}
+
+textarea {
+border-radius: 30px;
+background-color: silver;
+border: 2px inset gray;
+}
+#divcon {
+border: 2px ridge black;
+background: rgba(34,34,34,.65);
+border-radius: 50px;
+width: 400px;
+height: auto;
+padding: 40px;
+margin-top: 40px;
+}
+#bodycon {
+background-image: url(https://www.freejpg.com.ar/image-900/a1/a1be/F100008378-oficina.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+align-items: center;
+height: 35%;
+}
+</style>
+
+<body id="bodycon">
+    
+    <center>
+        <div id="divcon">
+            <form action="mailto:ivansagles@gmail.com.mx" enctype="text/plain" method="post">
+                <label class="lab"> Nombre
+                    <input  type="text" id="nombre" name="Usuario">
+                </label class="lab">
+                    <br>
+                    <br>
+                <label class="lab"> Apellidos
+                    <input type="text" name="apellido">
+                </label>
+                    <br>
+                    <br>
+                <label class="lab"> Correo
+                    <input type="email" id="Correo" name="Correo">
+                </label>
+                    <br>
+                    <br>
+                    Comentarios
+                <textarea name="Comentarios" id="inf" cols="30" rows="10"> </textarea>
+                    <br>
+                    <br>
+                <input type="submit" value="enviar">
+
+            </form>
+        </div>
+    </center>
+    <a  onclick="redirect()" style="position:relative; top: 90%; color: black;"><i class="w3-margin-left material-icons"> arrow_back </i></a> 
+</body>
+<script>
+    
+    function redirect() {  
+        document.addEventListener("click", function (){
+        document.getElementById("reo").innerHTML = "Hello World";});
+            window.location.href="Index.html";
+            }
+</script>
+</html>
